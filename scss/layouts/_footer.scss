@@ -3,22 +3,7 @@ footer {
     background-image: url(../../images/footer_background.jpg);
     background-position: center;
     background-size: cover;
-    // .footer-background-img{
-    //     position:absolute;
-    //     top:0px;
-    //     left:0px;
-    //     width: 100%;
 
-    //     img{
-    //         width: 100%;
-
-    //         @media screen and (max-width:991px) {
-    //             height: 100%;
-    //             width:auto;
-    //             max-width: 100%;
-    //         }
-    //     }
-    // }
     .footer-column-1 {
         h3 {
             @include styleText($fs-5, $color-white, $fw-3)

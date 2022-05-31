@@ -22,6 +22,7 @@
 
 @mixin inputFormat(){
     position: relative;
+
     span {
         @include styleText($fs-1, $color-purple, $fw-1);
         position: absolute;
@@ -37,5 +38,6 @@
         border-radius: 50px;
         border: 1px solid rgba(0, 0, 0, .1);
         width:100%;
+        outline: none;
     }
 }
